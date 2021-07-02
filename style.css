@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+li, a, span{
+    font-family: "Montserrat", sans-sarif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 38px 10%;
+    
+}
+
+.logo{
+    margin-right: auto;
+    cursor: pointer;
+    padding: -50px  ;
+    
+}
+.links{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.links li a{
+    transition: all 0.3 ease 0s;
+    color: white;
+    
+}
+.links li a:hover {
+    color: darkgray;
+}
+span{
+    color: cornsilk;
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+
+}
+span:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.side_pic{
+    padding: 100px 0px 0px 90px;
+}
+.pic{
+    border-radius: 0 20% 0 20%;
+    padding: 40px 0px 0px 40px;
+}
+.siphelo{
+    color: white;
+    float: right;
+    padding: 0px 20px 50px 0px;
+}
